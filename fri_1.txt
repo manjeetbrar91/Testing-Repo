@@ -1,0 +1,68 @@
+
+how create database
+
+create database test_db
+
+display all old db's
+
+show databases;
+
+select database
+
+use db_name;
+
+how to create a table
+
+create table tablename (colmn name datatype, 2ndcol datatype);
+
+show tables // used to view all tables in selected database;
+
+insert into t1 values(1,'Manjeet',200.23);
+insert into t2 (id, first_name,age) values(123,'XYZZZZ',18)
+
+update t2 set first_name='A', last_name='B' where id = 123;
+
+select * from t1;// used to display data from table
+
+update t1 set name ='X';// used to update column value
+
+desc t1;
+
+
+
+select first_name,last_name from t2;
+select first_name,last_name from t2 where first_name ='ABC';
+select * from t2 where id != 1
+select * from t2 where id < 1
+select * from t2 where id = 1;
+
+operators
+=
+<
+>
+!=
+and
+or
+like
+
+Apple iPhone
+8 inch apple iPad
+Apple Cable
+
+ Search anywhere  '%apple%'
+ serach from starting  'apple%'
+ search at end '%apple'
+
+
+ //delete some rows from tables
+
+ //alter table -> add new colm, updateexting colum
+
+ //alter table t1 change id id varchar(20)
+
+ select username, name,contact from user_master inner join user_detail on user_master.id=user_detail.id
+
+
+ select username, name,contact from user_master inner join user_detail on user_master.id=user_detail.id;
+
+ select username, name,contact from user_master left outer join user_detail on user_master.id=user_detail.id;

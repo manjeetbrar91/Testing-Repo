@@ -1,0 +1,26 @@
+DBMS = Database management system
+RDMS  = Relations
+
+We storing infomation some person/user into multiple table base on relation
+
+Collage -> ID CARD -> RegNo. RollNo.
+X
+
+Admmission 
+regno. name, age, contact details
+
+X
+
+Accounts
+acountid, regno. fee deposit, deposit date
+1 x 3000 20-5
+
+Exam Department
+examid exam date, regNo. result
+1 26-7 x pass
+2 26-8 x fail
+
+Type Of Relations
+1 to 1
+1 to many
+

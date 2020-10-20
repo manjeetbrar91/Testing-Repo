@@ -1,0 +1,28 @@
+TXT File 
+Person information store
+Name,Number,Age,
+XML
+
+<person>
+<name>Manjeet</name>
+<age>28</age>
+</person>
+
+
+JSON DATA // set of key and value..
+Object //
+// key value pair
+//it contain multiple key/ value pair
+Array // Number,String,object .. we store multiple items
+
+//varibale name and value
+
+JSON Object// collection of key and values pairs , can contain multiple kye/vakue pair
+Object declartion
+JSOn Will start with {
+
+and closed with }
+
+{
+  "key":value  
+}
