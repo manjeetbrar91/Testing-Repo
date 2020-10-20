@@ -4,11 +4,6 @@ console.log("Test");
 //Form Data
 //Json Data
 
-
-
-
-
-
 var app = express(); // intilize exrpess 
 app.use(bodyParser.json());//
 
