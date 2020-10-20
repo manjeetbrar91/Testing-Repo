@@ -1,5 +1,6 @@
 var express = require('express'); // it will import express module in our app
 var bodyParser = require('body-parser');
+console.log("Test");
 //Form Data
 //Json Data
 
