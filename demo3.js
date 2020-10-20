@@ -1,4 +1,4 @@
-var express = require('express'); // it will import express module in our app
+var express = require('express');
 var bodyParser = require('body-parser');
 
 
